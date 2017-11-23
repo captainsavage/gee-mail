@@ -1,0 +1,344 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"text",
+				"text-align"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/C/Users/Evelyn/gee-mail/index.html",
+			"settings":
+			{
+				"buffer_size": 2331,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Evelyn/gee-mail/js/mail-generator.js",
+			"settings":
+			{
+				"buffer_size": 5608,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "header {\n\twidth: 100%;\n\tposition: fixed;\n\theight: 50px;\n\tbackground-color: #D5452A\n}\n\nheader h1 {\n\tmargin: 0;\n\tpadding: 10px 20px;\n\tfloat: right;\n\tcolor: white;\n}\n\n\nbody {\n\tfont-size: 15px;\n}\n\nul {\n\tpadding: 0;\n\tmargin: 0;\n}\n\n.inbox {\n\twidth: 30%;\n\tfloat: left;\n\tmargin-left: 1%;\n\tbox-sizing: border-box;\n\tbackground-color: #ECECEC;\n\tmargin-top: 50px;\n}\n\n.message {\n\tcursor: pointer;\n}\n\n.inbox li{\n\tpadding:15px;\n\tborder-bottom: 2px solid white;\n\tlist-style:none;\n}\n\n.sender, .subject, .date {\n\tdisplay: block;\n}\n\n.inbox-body {\n\twidth: 70%;\n\tright: 0;\n\tmargin-top: 40px;\n\tpadding: 0px;\n\tbox-sizing: border-box;\n\tposition: fixed;\n\tfont-size:23px;\n}\n\n.active {\n\tbackground-color: #FC7D65;\n}\n\n.get-mail{\n\tcursor: pointer;\n\tfloat: left;\n\tmargin: 0;\n\tpadding: 10px 20px;\n\tbackground-color: rgba(0,0,0,.2);\n\ttransition: background-color .1s ease;\n\tmargin: 5px;\n\twidth: 50px;\n\tcolor: white;\n\tfont-size: .8em;\n}\n\n.get-mail:hover {\n\tbackground-color: rgba(0,0,0,.3);\n}\n\n",
+			"file": "style.css",
+			"file_size": 1040,
+			"file_write_time": 131556928407057241,
+			"settings":
+			{
+				"buffer_size": 961,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 392.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Evelyn/gee-mail/testForGmailJS.html",
+		"/C/GitHub/newGitTest/index.html",
+		"/C/Users/Evelyn/Desktop/my app/README.md",
+		"/C/Users/Evelyn/Desktop/my app/index.html",
+		"/C/Users/Evelyn/Desktop/my app/login.html",
+		"/C/Users/Evelyn/Desktop/my app/log.txt",
+		"/C/Users/Evelyn/Desktop/my app/dir 1/app1.js",
+		"/C/Users/Evelyn/Desktop/my app/dir 2/app2.js",
+		"/C/Users/Evelyn/Desktop/my app/app.js",
+		"/C/Users/Evelyn/Desktop/my app/.gitignore",
+		"/C/newGitTest/index.html"
+	],
+	"find":
+	{
+		"height": 41.0
+	},
+	"find_in_files":
+	{
+		"height": 104.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"inbox-body",
+			"active",
+			"maxMail",
+			"intervalID",
+			"led-on",
+			"led-inner",
+			"$",
+			"get-mail",
+			"intervalID",
+			"timer",
+			"intervalID",
+			"getMail",
+			"get-mail",
+			"led-inner",
+			"led-on",
+			"led-o",
+			"led-on",
+			"get-mail",
+			"main",
+			"container",
+			"buildList",
+			"mailList",
+			"buildList",
+			"htmlist",
+			"inboxHTML",
+			"updateMail",
+			"maxMail",
+			"buildList",
+			"right-tri",
+			"sender",
+			"test"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"currentMsg",
+			"safetyMax",
+			"timer",
+			"btnOn",
+			"btn",
+			"btnOn",
+			"incoming",
+			"timer",
+			"incoming",
+			"btn",
+			"btnOn",
+			"incoming",
+			"mailList",
+			"msgs",
+			"mailList",
+			"newMsgs"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/C/Users/Evelyn/gee-mail/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2331,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								773,
+								775
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 290.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/C/Users/Evelyn/gee-mail/js/mail-generator.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5608,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5150,
+								5150
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 961,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								226,
+								226
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 51.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "style.sublime-project",
+	"replace":
+	{
+		"height": 74.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

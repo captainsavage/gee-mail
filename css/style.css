@@ -1,0 +1,78 @@
+
+body {
+	font-size: .8em;
+}
+
+ul {
+	padding: 0;
+	margin: 0;
+}
+
+header {
+	width: 100%;
+	position: fixed;
+	height: 50px;
+	background-color: #D5452A
+}
+
+header h1 {
+	margin: 0;
+	padding: 10px 20px;
+	float: right;
+	color: white;
+}
+
+.inbox {
+	width: 30%;
+	float: left;
+	margin-left: 1%;
+	box-sizing: border-box;
+	background-color: #ECECEC;
+	margin-top: 50px;
+}
+
+.inbox li{
+	padding:15px;
+	border-bottom: 2px solid white;
+	list-style:none;
+}
+
+.sender, .subject, .date {
+	display: block;
+}
+
+.message {
+	cursor: pointer;
+}
+
+.inbox-body {
+	width: 70%;
+	right: 0;
+	margin-top: 40px;
+	padding: 60px;
+	box-sizing: border-box;
+	position: fixed;
+	font-size:23px;
+}
+
+.active {
+	background-color: #FC7D65;
+}
+
+.get-mail{
+	cursor: pointer;
+	float: left;
+	margin: 0;
+	padding: 10px 20px;
+	background-color: rgba(0,0,0,.2);
+	transition: background-color .1s ease;
+	margin: 5px;
+	width: 50px;
+	color: white;
+	font-size: .8em;
+}
+
+.get-mail:hover {
+	background-color: rgba(0,0,0,.3);
+}
+

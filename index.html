@@ -1,18 +1,86 @@
 <html>
 	<head>
+		<title>GeeMail Viewer</title>
 		<script src="js/mail-generator.js"></script>
-		<link href="css/style.css" rel="stylesheet" media="screen">
-    <script>
+		<link href="css/style.css" rel="stylesheet" media="screen"> 
+		<script src="https://code.jquery.com/jquery-3.2.1.js"
+  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+  crossorigin="anonymous"></script>
+    	<script>
       window.onload = function(){
-        // ALL OF YOUR JAVASCRIPT CODE SHOULD GO HERE. 
-        // We have to use window.onload so your JavaScript doesn't execute until the page has loaded and all HTML has been downloaded to your browser
-        
-      };
+		function newMail() { 
+			geemails.unshift(getNewMessage());
+			newMsgs = '<li class="message">' ;
+		    newMsgs +='<span class="sender"> ' + geemails[0].sender + '</span>';
+		    newMsgs +='<span class="subject"> ' + geemails[0].subject + '</span>';
+		    newMsgs +='<span class="date"> ' + geemails[0].date + '</span>';
+		    newMsgs +='</li>';
+		    return newMsgs;
+		} 
+			      
+		function mailList(arr) {
+		 var msgs = '<ul>';
+		  for (var i = 0; i < arr.length; i += 1) {
+		    msgs += '<li class="message">' ;
+		    msgs +='<span class="sender"> ' + arr[i].sender + '</span>';
+		    msgs +='<span class="subject"> ' + arr[i].subject + '</span>';
+		    msgs +='<span class="date"> ' + arr[i].date + '</span>';
+		    msgs +='</li>';
+		  }
+		  msgs += '</ul>';
+		  return msgs;
+		} 
+					
+		function getMail() {
+			$(".inbox ul").prepend(newMail());
+			inboxCount();
+		}
+				  
+		var htmlist = mailList(geemails);
+ 		$(".inbox").html(htmlist);
+
+		function inboxCount() {
+			var inboxCount = "Inbox (" + geemails.length + ")";
+			$(".inbox-count").text(inboxCount);
+		}
+                   inboxCount();
+
+		    //this function keeps from an infinate loop
+		function safetyMax(){
+			if( geemails.length < 300 ) {
+				getMail();
+			} 
+		}
+
+		$('.get-mail').on("click", function(){
+  			$('.btn').toggleClass('btnOn');
+  			if ($('.btn').hasClass('btnOn')){
+  				$(".btn");
+  				timer = setInterval(safetyMax, 5000); 
+			} else {
+				$(".btn");
+    			window.clearInterval(timer);
+			}
+		});
+		        
+		$("body").on( "click", ".message", function(){
+			$(".message").removeClass("active");
+			$(this).toggleClass("active");
+			var index = $(".message").index( this );
+			var msgBody = geemails[index].body;
+			$(".inbox-body").html(msgBody);
+		});
+      }; 
+
     </script>
 	</head>
 	<body>
-		<div class="container" id="main">
-			Build Me!
-		</div>
-	</body>
+		<header>
+			<h1>GeeMail</h1>
+			<div class="get-mail btn inbox-count"></div>
+		</header>
+			<div class="inbox"></div>
+			<div class="inbox-body"></div>
+		</body>
 </html>
+
